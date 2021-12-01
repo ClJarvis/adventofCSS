@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+@font-face {
+  font-family: "bebas";
+  src: url('./fonts/bebasneue-book-webfont.woff') format('woff'),
+      url('./fonts/bebasneue-book-webfont.woff2') format('woff2');
+}
+
+
+:root {
+	--red: #9d0000;
+	--green: #00aa51;
+}
+
+body {
+	background: #2B2A30;
+	color: white;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	min-height: 100vh;
+	min-width: 100vw;
+	padding: 0;
+}
+
+.main {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.flex-container > div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.outerring {
+	background: radial-gradient(#3A393F, #17171A);
+	border-radius: 50%;
+	height: 500px;
+	width: 500px;
+	border: 6px solid var(--red);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.time {
+	font-family: "bebas";
+	font-weight: bold;
+	font-size: 196px;
+
+}
