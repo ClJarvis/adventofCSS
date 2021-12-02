@@ -47,11 +47,31 @@ body {
 	justify-content: center;
 	align-items: center;
 	position: relative;
+	box-shadow: inset 0px 0px 114px rgba(0, 0, 0, 0.45);
+
+}
+
+.innerring {
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+
 }
 
 .time {
 	font-family: "bebas";
 	font-weight: bold;
 	font-size: 196px;
+}
 
+.command {
+	font-family: "Montserrat";
+	justify-content: space-around;
+}
+
+.gear {
+	margin-top: 20px;
+	font-color: #585858;
 }
